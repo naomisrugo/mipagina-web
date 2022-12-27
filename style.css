@@ -1,0 +1,248 @@
+body{
+    background-color: rgb(250, 234, 236) !important;
+}
+
+#flecha{
+    width: 150px;
+    height: 100px;
+    padding-bottom: 100px !important;
+    padding-left: 400px;
+}
+
+#myMenu{
+    background-color:rgb(245, 151, 166);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    position: sticky;
+    font-family: fantasy;
+}
+
+#botones{
+    margin-bottom: 80px;
+}
+
+#primero{
+    padding-left: 100px;
+    width: 500px;
+    height: 200px;
+    grid-column-start: 1;
+    grid-column-end:2;
+}
+
+#segundo{
+    padding-right: 550px;
+    grid-column-start: 2;
+    grid-column-end:3;
+}
+
+#display-grid{
+    display: grid;
+    padding-left: 250px;
+}
+
+#botones{
+    padding-left: 400px !important;
+    align-content: space-between !important;
+}
+
+#todo{
+    width: 350px;
+    padding-left: 10px;
+}
+
+#nombre{
+    padding-left: 10px;
+}
+
+#comprar{
+    padding-top: 50px;
+    padding-bottom: 20;
+    padding-left: 400px;
+    color: pink;
+    border-style:rgb(245, 151, 166);
+}
+
+#logo{
+    width: 1100px;
+    height: 400px;
+    position: sticky;
+    padding-left: 400px; 
+}
+
+#resMen{
+    display: none;
+}
+#n1{
+    padding-left: 180px;
+    font-family: fantasy;
+}
+#n5{
+    padding-left: 930px;
+}
+
+#n2{
+    padding-left: 770px;
+}
+
+#n3{
+    padding-left: 660px;
+    font-family: cursive;
+}
+
+#n4{
+    padding-left: 860px;
+}
+
+/* #fotos a{
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+} */
+
+.foto{
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+    padding-left: 300px;
+    padding-right: 100px;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+
+#myMenu a{
+    width: 20%;
+    color:black ;
+    text-align: center;
+    font-size: large;
+    text-decoration: none;
+    margin: 2%;
+    height: 40px;
+   
+}
+
+#myMenu a:hover{
+   /* box-shadow: 10px 10px rgba(255, 250, 250, 0.158);  */
+   width: 22%;
+   font-size:xx-large;
+
+}
+
+input{
+    margin: 5px !important;
+}
+
+@media(max-width:500px){
+    #myMenu{
+        background-color: rgb(250, 234, 236) !important;
+        width: 50px;
+        flex-direction: column;        
+    }
+
+    #resMen{
+       display: block; 
+       width: 50px;  
+    }
+
+    #myMenu a{
+        display: none;
+        width: 90%;
+        margin: 4%;
+     }
+
+     #myMenu:hover a{
+         display: inline-block;
+     }
+
+     #logo{
+        width: 370px;
+        height: 200px;
+        position: sticky;
+        padding-left: 0px; 
+    }
+
+    #informacion a{
+        padding-left: 0px;
+    }
+
+    #n1{
+        padding-top: 30px;
+        border-left: 0px;
+        margin-left: 0px;
+        width: 100%;
+        height: 160px;
+        padding-left: 0px !important;
+        font-family: fantasy;
+    }
+    #n5{
+        padding-left: 150px;
+    }
+    
+    #n2{
+        padding-left: 0px;
+    }
+    
+    #n3{
+        padding-left: 0px;
+        font-family: cursive;
+    }
+    
+    #n4{
+        padding-left: 0px;
+    }
+
+    .foto{
+        width: 300px;
+        height: 200px;
+        padding-left: 20px;
+        padding-right: 10px;
+        justify-content: space-between;
+        padding-top: 100px;
+    }
+
+    #fotos{
+        display: inline-block;
+        width: 500px;
+    }
+
+    #fotos a{
+        display: inline-block;
+    }
+
+    #comprar{
+        padding-top: 50px;
+        padding-bottom: 20;
+        padding-left: 0px;
+        color: pink;
+        border-style:rgb(245, 151, 166);
+    }
+
+    #display-grid{
+        display: block;
+        padding-left: 0px;
+    }
+
+    #primero{
+        padding-left: 0px;
+    }
+
+    #botones{
+        padding-top: 10px;
+        padding-left: 10px !important;
+    }
+
+    #gracias{
+        width: 370px;
+    }
+
+    #link{
+        padding-top: 35;
+        padding-left: 5px !important;
+    }
+
+    #div{
+        padding-left: 10px;
+
+    }
+}
